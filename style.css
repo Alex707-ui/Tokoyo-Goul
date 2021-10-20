@@ -1,0 +1,44 @@
+ol {
+    padding-left: 0;
+    display: inline-block;
+    border: 0;
+}
+
+li {
+    margin: 14px;
+    margin-bottom: 0;
+    padding: 15px;
+    padding-left: 125px;
+    padding-right: 125px;
+    background: linear-gradient(45deg, #161a24, #c44545);
+    color: white;
+    font-size: 120%;
+    text-align: center;
+    border: 0;
+}
+
+.start-button {
+    display: block;
+    padding: 15px;
+    padding-left: 125px;
+    padding-right: 125px;
+    background: linear-gradient(45deg, #161a24, #c44545);
+    color: white;
+    font-size: 120%;
+    text-align: center;
+    border: 0;
+}
+
+li:hover {
+    transition: 0.2s;
+    transform: scale(1.03);
+    box-shadow: 0 2px 4px black;
+}
+
+
+.start-button:hover {
+    transition: 0.2s;
+    transform: scale(1.03);
+    box-shadow: 0 2px 4px black;
+}
+
